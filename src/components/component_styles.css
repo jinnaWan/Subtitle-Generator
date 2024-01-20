@@ -1,0 +1,23 @@
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing-animation h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.typing-animation .cursor {
+  display: inline-block;
+  animation: typing 1.5s steps(15, end) infinite;
+}
+
+.error-link {
+  text-decoration: underline;
+}
